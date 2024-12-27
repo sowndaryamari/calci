@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>fadeToggle</title>
+        <link rel="stylesheet"href="fadetroggle.css">
+    </head>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<body>
+    <script>
+        $(document).ready(function(){
+        $("button").click(function(){
+            $("head").fadeToggle();
+            $("head1").fadeToggle();
+            $("head2").fadeToggle();
+
+        });
+        });
+    </script>
+    <button>fadeToggle</button>
+    <div id="head" style="height: 100px;width: 100px;background-color: navy; display: none;">link </div>
+    <div id="head1" style="height: 100px;width: 100px;background-color:orange ;display: none;">link </div>
+    <div id="head2" style="height: 100px;width: 100px;background-color: black;">link </div>
+    </body>
+</html>

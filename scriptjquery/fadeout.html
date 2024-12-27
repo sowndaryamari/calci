@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>fadeOut</title>
+        <link rel="stylesheet"href="fadeoutcss">
+    </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ 
+    <body>
+        
+        
+          
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                $("#1").fadeOut();
+                $("#2").fadeOut("slow");
+                $("#3").fadeOut(10);
+                $("#head").fadeOut();
+                $("#head1").fadeOut();
+                });
+           
+            });
+        </script>
+        <button>fadeout</button>
+        <div id="head" style="color: rgb(213, 179, 245);font-family: cursive;font-size: 1cm;">live wire</div>
+        <div id="head1"style="color: wheat;font-family: cursive;font-size: 1cm;">livewire offe</div>
+        <div id="1" style="width:100px;height:100px;background-color:#ff7b00;">box</div><br>
+        <div id="2" style="width:100px;height:100px;background-color:rgb(13, 181, 49);"></div><br>
+        <div id="3" style="width:100px;height:100px;background-color:rgb(36, 36, 61);"></div>
+       
+        
+    </body>
+</html>
